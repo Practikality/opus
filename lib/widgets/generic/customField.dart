@@ -50,10 +50,10 @@ class CustomField extends StatelessWidget {
         prefixIcon: icon != null
             ? Icon(
                 icon,
-                color: MyColors.midnight,
+                color: MyColors.darkerCaption,
               )
             : null,
-        hintStyle: new TextStyle(color: MyColors.midnight),
+        hintStyle: new TextStyle(color: MyColors.darkerCaption),
         hintText: hint,
         contentPadding: EdgeInsets.symmetric(horizontal: 9, vertical: 21),
         fillColor: MyColors.white,
