@@ -6,10 +6,12 @@ class CustomButton extends StatelessWidget {
   final String label;
   final Function onPress;
   final Color color;
+  final Color labelColor;
   CustomButton({
     @required this.label,
     @required this.onPress,
     this.color: MyColors.primary,
+    this.labelColor: MyColors.white,
   });
 
   @override
@@ -24,7 +26,7 @@ class CustomButton extends StatelessWidget {
         width: double.infinity,
         child: CustomText(
           label,
-          color: MyColors.white,
+          color: labelColor,
           textAlign: TextAlign.center,
           productSans: true,
         ),

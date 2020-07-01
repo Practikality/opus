@@ -1,1 +1,3 @@
-class MyStrings {}
+class MyStrings {
+  static const String appName = "Opus";
+}
